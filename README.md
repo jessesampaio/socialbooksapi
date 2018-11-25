@@ -1,8 +1,6 @@
 Projeto SocialBooksAPI
 
 
-#Primeiro endpoint (livros)
-http://localhost:8080/livros
 
 
 #Banco de Dados H2
@@ -19,6 +17,41 @@ http://localhost:8080/livros
 
 
 
+#Primeiro endpoint (livros)
+http://localhost:8080/livros
+
+Descrição: Retorna todos os livros cadastrados.
+Método GET
+
+
+#Segundo endpoint (livros/id)
+http://localhost:8080/livros/
+Retorna o livro do id informado
+Método GET
+
+#Terceiro endpoint (livros)
+http://localhost:8080/livros
+Insere o livro do informado
+POST, raw, Json/Application
+{
+	"nome" : "TDD em Java",
+	"autor" : "Fulano",
+	"editora" : "Escala"
+}
+
+#Terceiro endpoint (livros)
+http://localhost:8080/livros
+Insere o livro do informado
+POST, raw, Json/Application
+{
+	"nome" : "TDD em Java",
+	"autor" : "Fulano",
+	"editora" : "Escala"
+}
+
+#Primeiro endpoint (livros)
+http://localhost:8080/livros
+
 
 
 
@@ -26,26 +59,28 @@ http://localhost:8080/livros
 
 2. Criando uma API RESTful
 
-Criando o projeto
-Modelando nosso primeiro recurso
-Criando uma representação para o recurso Livro
-Utilizando a anotação @JsonInclude
-Interagindo com o banco de dados
-Salvando o recurso Livro a partir de um POST
-Buscando um livro com o uso da anotação @PathVariable
-Deletando o recurso Livro com o DELETE
-PUT para atualizar o recurso Livro
-Tratamento correto das respostas HTTP 404 e 201
-Finalizando o tratamento das respostas
-Melhorando o design do nosso código
-Manipulando erros com @ExceptionHandler e @ControllerAdvice
-Adicionando comentários ao recurso Livro
-Listando os comentários do recurso Livro
-Adicionando o recurso Autor à nossa API
-Evoluindo nosso recurso Autor
-Testando nossos recursos e formatando nossas representações JSON
-Validando as entradas na nossa API
-Negociação de conteúdos com Media Type
+Criando o projeto 
+Modelando nosso primeiro recurso 
+Criando uma representação para o recurso Livro 
+Utilizando a anotação @JsonInclude 
+Interagindo com o banco de dados 
+
+Salvando o recurso Livro a partir de um POST 
+Buscando um livro com o uso da anotação @PathVariable 
+Deletando o recurso Livro com o DELETE 
+PUT para atualizar o recurso Livro 
+
+Tratamento correto das respostas HTTP 404 e 201 
+Finalizando o tratamento das respostas 
+Melhorando o design do nosso código 
+Manipulando erros com @ExceptionHandler e @ControllerAdvice 
+Adicionando comentários ao recurso Livro 
+Listando os comentários do recurso Livro 
+Adicionando o recurso Autor à nossa API 
+Evoluindo nosso recurso Autor 
+Testando nossos recursos e formatando nossas representações JSON 
+Validando as entradas na nossa API 
+Negociação de conteúdos com Media Type 
 
 3. Refinando a API
 Adicionando cache
