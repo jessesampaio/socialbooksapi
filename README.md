@@ -52,6 +52,12 @@ Método DELETE
 
 
 
+--Endpoint (autores)
+http://localhost:8080/autores
+
+
+
+
 --Conteúdo Principal
 
 2. Criando uma API RESTful
@@ -69,7 +75,6 @@ Método DELETE
 -Finalizando o tratamento das respostas
 -Melhorando o design do nosso código
 -Manipulando erros com @ExceptionHandler e @ControllerAdvice
-
 -Adicionando comentários ao recurso Livro
 -Listando os comentários do recurso Livro
 -Adicionando o recurso Autor à nossa API
@@ -77,6 +82,7 @@ Método DELETE
 -Testando nossos recursos e formatando nossas representações JSON
 -Validando as entradas na nossa API
 -Negociação de conteúdos com Media Type
+
 
 3. Refinando a API
 Adicionando cache
