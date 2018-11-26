@@ -69,6 +69,7 @@ Método DELETE
 -Finalizando o tratamento das respostas
 -Melhorando o design do nosso código
 -Manipulando erros com @ExceptionHandler e @ControllerAdvice
+
 -Adicionando comentários ao recurso Livro
 -Listando os comentários do recurso Livro
 -Adicionando o recurso Autor à nossa API
